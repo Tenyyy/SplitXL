@@ -37,7 +37,7 @@ A typical workflow involves:
 5.  Monitoring the non-blocking progress window.
 6.  Receiving a summary report upon completion, cancellation, or error.
 
-## Features
+## Key Features
 
 -   **Rich Formatting Preservation:** Faithfully copies fonts, colors, borders, fills, number formats, and alignments.
 -   **Non-Blocking GUI:** The splitting process runs in a separate thread, keeping the UI fully responsive.
@@ -87,19 +87,20 @@ python excel_splitter.py
     *   **Select Input File:** A dialog will ask you to choose the `.xlsx` file you want to split.
     *   **Select Output Directory:** Choose a folder where the new, smaller files will be saved. It defaults to the input file's location.
     *   **Configure Rows:** Enter the number of data rows you want in each chunk and how many header rows from the original file should be repeated at the top of each new file.
-    <img src="assets/configure_rows_1.png" alt="Configure Rows 1" width="600"/>
-    <img src="assets/configure_rows_2.png" alt="Configure Rows 2" width="600"/>
+    <p align="center"> <img src="assets/configure_rows_1.png" alt="Configure Rows 1" width="400"/> <br> 
+    <img src="assets/configure_rows_2.png" alt="Configure Rows 2" width="450"/> </p>
+    
     *   **Preserve Formulas:** A dialog box will ask if you want to keep formulas or save their calculated values. Choosing 'No' is safer for preventing broken references in the split files.
-    <img src="assets/preserve_formulas.png" alt="Preserve Formulas" width="600"/>
+    <p align="center"> <img src="assets/preserve_formulas.png" alt="Preserve Formulas" width="600"/> </p>
 3.  **Monitor Progress:**
     *   A progress window will appear, showing the current status and a progress bar. You can click "Cancel" at any time to halt the operation.
-    <img src="assets/progress_window" alt="Monitor Progress" width="600"/>
+    <p align="center"> <img src="assets/progress_window.png" alt="Monitor Progress" width="600"/> </p>
 4.  **Verify Success:**
     *   Upon completion, a summary dialog will report the outcome (success, cancellation, or error) and the total number of files created.
-    <img src="assets/completion_report.png" alt="Shows the completion summary dialog" width="550"/>
-
+    <p align="center"> <img src="assets/completion_report.png" alt="Shows the completion summary dialog" width="670"/> </p>
+    
     *   The split files will be located in your chosen output directory, named with the original filename and the row range they contain (e.g., `original_file_rows_2-5001.xlsx`). 
-    <img src="assets/output_files_example.png" alt="Shows the Excel output files example" width="1200"/>
+    <p align="center"> <img src="assets/output_files_example.png" alt="Shows the Excel output files example" width="320"/> </p>
 
 ## Project Structure
 
@@ -163,6 +164,4 @@ Split smarter, not harder!
 **Version:** 7  
 **Concept Date:** 2024-03-25 
 
-<img src="assets/excel_splitter_banner_2.jpg" alt="SplitXL Banner 2" width="600"/>
-
-<img width="451" height="686" alt="image" src="https://github.com/user-attachments/assets/2a51c79c-1490-49a0-b09b-47bbbb04ed9b" />
+<p align="center"><img src="assets/excel_splitter_banner_2.jpg" alt="SplitXL Banner 2" width="800"/> </p>
