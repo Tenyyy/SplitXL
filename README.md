@@ -89,8 +89,8 @@ python excel_splitter.py
     *   **Select Input File:** A dialog will ask you to choose the `.xlsx` file you want to split.
     *   **Select Output Directory:** Choose a folder where the new, smaller files will be saved. It defaults to the input file's location.
     *   **Choose Processing Method:** You will be prompted to select between an "Optimized" (recommended for speed) and "Standard" cell copying method.
-    <p align="center"> <img src="assets/select_method.png" alt="Select Processing Method" width="600"/> </p>
-    
+    <p align="center"> <img src="assets/select_method.png" alt="Select Processing Method" width="300"/> </p>
+
     *   **Configure Rows:** Enter the number of data rows you want in each chunk and how many header rows from the original file should be repeated at the top of each new file.
     <p align="center"> <img src="assets/configure_rows_1.png" alt="Configure Rows 1" width="400"/> <br> 
     <img src="assets/configure_rows_2.png" alt="Configure Rows 2" width="450"/> </p>
