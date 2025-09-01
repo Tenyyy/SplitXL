@@ -32,13 +32,15 @@ The core strength of SplitXL is its ability to meticulously preserve the origina
 A typical workflow involves:
 1.  Launching the script and selecting an input Excel file.
 2.  Choosing an output directory.
-3.  Configuring the split parameters: data rows per file and header rows to repeat.
-4.  Deciding whether to keep formulas or convert them to static values.
-5.  Monitoring the non-blocking progress window.
-6.  Receiving a summary report upon completion, cancellation, or error.
+3.  Selecting between an Optimized (fast) or Standard processing method.
+4.  Configuring the split parameters: data rows per file and header rows to repeat.
+5.  Deciding whether to keep formulas or convert them to static values.
+6.  Monitoring the non-blocking progress window.
+7.  Receiving a summary report upon completion, cancellation, or error.
 
 ## Key Features
 
+-   **Optimized Processing Engine:** Features a high-performance mode that uses style caching to dramatically speed up the splitting process on files with extensive formatting.
 -   **Rich Formatting Preservation:** Faithfully copies fonts, colors, borders, fills, number formats, and alignments.
 -   **Non-Blocking GUI:** The splitting process runs in a separate thread, keeping the UI fully responsive.
 -   **Real-Time Progress Tracking:** A dedicated window shows the current status, a progress bar, and the percentage complete.
@@ -86,6 +88,9 @@ python excel_splitter.py
 2.  **Follow the GUI Prompts:**
     *   **Select Input File:** A dialog will ask you to choose the `.xlsx` file you want to split.
     *   **Select Output Directory:** Choose a folder where the new, smaller files will be saved. It defaults to the input file's location.
+    *   **Choose Processing Method:** You will be prompted to select between an "Optimized" (recommended for speed) and "Standard" cell copying method.
+    <p align="center"> <img src="assets/select_method.png" alt="Select Processing Method" width="600"/> </p>
+    
     *   **Configure Rows:** Enter the number of data rows you want in each chunk and how many header rows from the original file should be repeated at the top of each new file.
     <p align="center"> <img src="assets/configure_rows_1.png" alt="Configure Rows 1" width="400"/> <br> 
     <img src="assets/configure_rows_2.png" alt="Configure Rows 2" width="450"/> </p>
@@ -111,7 +116,7 @@ SplitXL/
 ├── requirements.txt        # List of dependencies
 ├── .gitignore              # Git ignore file for Python projects
 ├── assets/                 # Contains screenshots of the application's UI
-└── LICENSE                 # GNU AGPLv3 License File
+└── LICENSE                 # GNU GPLv3 License File
 ```
 
 ## Development
@@ -141,7 +146,7 @@ For major changes, please open an issue first to discuss the proposed changes.
 
 ## License
 
-Distributed under the GNU Affero General Public License v3 (AGPLv3) License.
+Distributed under the GNU General Public License v3 (GPLv3) License.
 See [LICENSE](LICENSE) for full details.
 
 
@@ -161,7 +166,7 @@ Project Showcase: [sztaroszta.github.io](https://sztaroszta.github.io)
 Split smarter, not harder!
 ```
 
-**Version:** 7  
+**Version:** 8  
 **Concept Date:** 2024-03-25 
 
 <p align="center"><img src="assets/excel_splitter_banner_2.jpg" alt="SplitXL Banner 2" width="800"/> </p>
