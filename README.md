@@ -125,23 +125,4 @@ Distributed under the GNU General Public License v3 (GPLv3) License.
 See [LICENSE](LICENSE) for full details.
 
 
-## Contact
 
-For questions, feedback, or support, please open an issue on the [GitHub repository](https://github.com/sztaroszta/SplitXL/issues) or contact me directly: 
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/vitalii-starosta)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/sztaroszta)
-[![GitLab](https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=gitlab)](https://gitlab.com/sztaroszta)
-[![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket)](https://bitbucket.org/sztaroszta/workspace/overview)
-[![Gitea](https://img.shields.io/badge/Gitea-609926?style=for-the-badge&logo=gitea)]( https://gitea.com/starosta) 
-
-Project Showcase: [sztaroszta.github.io](https://sztaroszta.github.io)
-
-```
-Split smarter, not harder!
-```
-
-**Version:** 8  
-**Concept Date:** 2024-03-25 
-
-<p align="center"><img src="assets/excel_splitter_banner_2.jpg" alt="SplitXL Banner 2" width="800"/> </p>
