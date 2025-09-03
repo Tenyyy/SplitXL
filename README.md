@@ -1,28 +1,3 @@
-# SplitXL
-
-A GUI-based utility for splitting a large Excel file into smaller, more manageable chunks while preserving cell formatting, styles, and formulas. The application runs the splitting process in a separate thread to ensure the user interface remains responsive, providing real-time progress updates and a cancellation option 📊✂️
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-![SplitXL Banner](assets/excel_splitter_banner_1.jpg) 
-
-**➡️ Read more about the project, its features, and development in my [Medium story.](https://medium.com/@starosta/split-large-excel-with-python-e1e6453c91f9)** 
-
-
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Development](#development)
-- [Known Issues](#known-issues)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Overview
 
 SplitXL addresses the common challenge of working with massive Excel files that are slow to open, edit, and share. This tool provides an intuitive graphical interface to break down any `.xlsx` file into smaller files based on a specified number of rows.
